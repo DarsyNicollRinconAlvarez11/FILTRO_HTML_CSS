@@ -133,17 +133,37 @@ body{
 
 
 @media(max-width:700px){
-    .cuadro{
-        backdrop-filter: blur(2px); 
-        position: relative;
+    .container{
         display: flex;
+    }
+    .tea{
+        position:relative;
+        width: 20%;
+        height: 30%;
+    }
+    .escrito{
+        display: flex;
+        width: 50%;
+        height: 60%;
+        position: relative;
+        margin-left:5%;
+        margin-top:6%;
+        top: 15%;
+    }
+    .tittle {
+        display: flex;
+        font-size: 140px;
+        margin: 0%;
+    }
+    .information{
+        display: flex;
+        position: absolute;
         flex-direction: column;
-        width: 300px;
+        width: 70%;
         border-radius: 20px;
         padding: 4px;
-        top:10px;
-        left:40px;
-        gap: 0px;
+        top:100%;
+        left:4px;
         text-align:center
         
     }
