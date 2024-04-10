@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color:#E8D9D6 ;
+    font-family: "Poppins", sans-serif;
+    color: #252525;
+}
+.container{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 50% 50%;
+    display: flex;
+}
+.tea{
+    position:absolute;
+    top: 5%;
+    left: 7%;
+    width: 230px;
+    height:auto ;
+    bottom: 12%;
+    left: 10%;
+    
+    animation-name: tea;
+    animation-duration: 5s;
+}
+.escrito{
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    margin-left:5%;
+    margin-top:6%;
+    top: 15%;
+}
+.tittle {
+    font-size: 140px;
+    margin: 0%;
+}
+.text-princ{
+    margin: 0%;
+    width: 100%;
+    font-size: 25px;
+}
+.botton{
+    width: 18%;
+    height: 8%;
+    margin: 3% 0%;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    border: solid #252525;
+    color: white;
+    background-color: #252525;
+}
+.botton:hover{
+    background-color: #E8D9D6;
+    transition: .2s;
+    border: 3px solid #252525; 
+    color: #252525;
+}
+.areaVaso{
+    z-index: 1;
+    position: absolute;
+    width: 1160px;
+    height:880px;
+    right:0%;
+    top: -8%;
+}
+.imgVaso{
+    position: absolute;
+    z-index: 2;
+    height:580px;
+    right:15%;
+    top: 0%;
+}
+.imgVaso:hover{
+    height: 650px;
+    transition: 2s;
+}
+.information{
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+    bottom: 5%;
+    left: 0%;
+    color: #E8D9D6;
+}
+.products{
+    display: flex;
+    z-index: 3;
+    width: 8%;
+    height: 200px;
+    border-radius: 910px;
+    background-color: rgba(255, 255, 255, 0.3);
+    line-height: 1;
+    
+}
+.products:hover{
+    transition: 2s;
+    width: 25%;
+    color: #252525;
+}
+.idProduct{
+    position: absolute;
+    justify-self: center;
+    height: 10%;
+    margin: 1% 9.5%;
+    font-size: 30px;
+}
+.idProduct:hover{
+    transition: 2s;
+    width: 25%;
+}
+.textProdu{
+    
+    padding: 5%;
+    font: 15px ;
+    text-align: left;
+    align-self: center;
+
+}
+.textProdu:hover{
+    transition: 2s;
+    width: 25%;
+}
+@keyframes tea {
+    0% {
+        opacity: 1;
+        transform: rotate(2turn);
+    }
+    
+}
+/* 
+
+@keyframes nube {
+    0% {
+        opacity: 0;
+        left: 100%;
+    }
+    20%, 80% {
+        opacity: 1;
+        left: 40%;
+    }
+    45%, 65% {
+        opacity: 1;
+        background-image: url(/img/nojado.png);
+    }
+    100% {
+        opacity: 1;
+        left: -100%;
+    }
+}
+@keyframes lluvia {
+    50%  {
+        height: 100px;
+    }
+    100% {
+        height: 400px;
+    }
+
+}
+
+
+@keyframes flor {
+    from {
+        opacity: 0;
+        height: 200px;
+    }
+    to {
+        opacity: 1;
+    }
+
+} 
+
+
+
+@keyframes mensaje {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+} 
+@keyframes countdown {
+    20%{
+        background: url(/img/tres.png) no-repeat top;
+    }
+    40%{
+        background: url(/img/dos.png) no-repeat top;
+    }
+    60%{
+        background: url(/img/uno.png) no-repeat top;
+    }
+    80%{
+        background: url(/img/accion.png) no-repeat top;
+    }
+    90%{
+        opacity: 1;
+        height: 500px;
+    }
+    to {
+        opacity: 0;
+    }
+}   */
+
+    @media(max-width:700px){
+        .cuadro{
+            backdrop-filter: blur(2px); 
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            border-radius: 20px;
+            padding: 4px;
+            top:10px;
+            left:40px;
+            gap: 0px;
+            text-align:center
+            
+        }
+    }
